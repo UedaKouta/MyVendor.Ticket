@@ -35,7 +35,7 @@ class AppModule extends AbstractAppModule
                 $appDir . '/var/json_validate'
             )
         );
-        $this->install(new JsonSchemaLinkHeaderModule('http://www.example.com/'));
+        $this->install(new JsonSchemaLinkHeaderModule('http://uedakouta.github.io/schema'));
         $this->install(new AuraRouterModule($appDir . '/var/conf/aura.route.php'));
         $this->install(new PackageModule);
     }
